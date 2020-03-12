@@ -26,7 +26,7 @@ cd ${VIRTUAL_ENV_DIR}/bin/
 source activate
 
 # Installs AWS CLI and its dependencies
-pip install awscli
+pip install awscli dnspython
 
 # Modifies the first line of aws file to #!/var/lang/bin/python (path to Python3 in Lambda)
 # if this command fails, you can manually edit the first line in the "aws" file in a text editor
